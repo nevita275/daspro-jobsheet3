@@ -17,7 +17,7 @@ public class Kafe22 {
 
         double totalHarga = (jmlKopi * hargaKopi) + (jmlTeh *hargaTeh) + (jmlRoti * hargaRoti);
         double nominalBayar = totalHarga - (diskon * totalHarga);
-        byet totalbyet = (byet) totalHarga;
+        byte totalbyet = (byte) totalHarga;
         int nominallnt = (int) nominalBayar;
      
         System.out.println("Keanggotaan pelanggan " + keanggotaan);
